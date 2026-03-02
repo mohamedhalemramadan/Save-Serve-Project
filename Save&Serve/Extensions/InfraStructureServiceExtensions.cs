@@ -9,31 +9,36 @@ using Persistance.Dates;
 using Persistance.Identity;
 using Persistance.Repositories;
 
-
 namespace E_Commerce.Extensions
 {
     public static class InfraStructureServiceExtensions
     {
-        public static IServiceCollection AddInfraStructureServices(this IServiceCollection services, IConfiguration configuration)
+        public static IServiceCollection AddInfraStructureServices(
+            this IServiceCollection services,
+            IConfiguration configuration) 
         {
             services.AddScoped<IDbInitializer, DbInitializer>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
-            services.AddDbContext<StoreDBContext>(
 
-                options =>
-                {
-                    options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));
-                });
-            services.AddDbContext<StoreIdentityContext>(
 
-                options =>
-                {
-                    options.UseSqlServer(configuration.GetConnectionString("IdentityConnection"));
-                });
+            services.AddDbContext<StoreDBContext>(options =>
+            {
+                var connectionString = configuration.GetConnectionString("DefaultConnection");
+                options.UseSqlServer(connectionString);
+            });
+
+
+            services.AddDbContext<StoreIdentityContext>(options =>
+            {
+                var connectionString = configuration.GetConnectionString("IdentityConnection");
+                options.UseSqlServer(connectionString);
+            });
+
             services.ConfigureIdentityService();
-           
+
             return services;
         }
+
         public static IServiceCollection ConfigureIdentityService(this IServiceCollection services)
         {
             services.AddIdentity<User, IdentityRole>(options =>
@@ -43,11 +48,10 @@ namespace E_Commerce.Extensions
                 options.Password.RequireLowercase = false;
                 options.Password.RequireNonAlphanumeric = false;
                 options.Password.RequiredLength = 8;
-
             })
-                .AddEntityFrameworkStores<StoreIdentityContext>();
-            return services;
+            .AddEntityFrameworkStores<StoreIdentityContext>(); 
 
+            return services;
         }
     }
 }

@@ -2,14 +2,10 @@
 using Domain.Entities;
 using E_Commerce.Extensions;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
-using Persistance;
-using Persistance.Dates;
 using Persistance.Identity;
-using Persistance.Repositories;
-using Servcies;
+using Persistance.Services;
+using Services;
 using Services.Abstractions;
-
 
 namespace Save_Serve
 {
@@ -19,13 +15,17 @@ namespace Save_Serve
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
+            // Add services to the container
             builder.Services.AddInfraStructureServices(builder.Configuration);
+
+            // ⭐ Register JWT Token Service
+            builder.Services.AddScoped<IJwtTokenService, JwtTokenService>();
+
             builder.Services.AddControllers();
-            builder.Services.AddControllers().AddApplicationPart(typeof(Presentaion.AssemblyReference).Assembly);
-            builder.Services.AddScoped<IServiceManager ,ServiceManager>();
+            builder.Services.AddControllers()
+                .AddApplicationPart(typeof(Presentaion.AssemblyReference).Assembly);
 
-
+            builder.Services.AddScoped<IServiceManager, ServiceManager>();
 
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
@@ -33,9 +33,7 @@ namespace Save_Serve
 
             var app = builder.Build();
 
-            await app.SeedDbAsync();
-
-            // Configure the HTTP request pipeline.
+            // Configure the HTTP request pipeline
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
@@ -43,18 +41,10 @@ namespace Save_Serve
             }
 
             app.UseHttpsRedirection();
-
             app.UseAuthorization();
-
-
             app.MapControllers();
 
             app.Run();
-
-            
-            }
-
         }
     }
-   
-
+}

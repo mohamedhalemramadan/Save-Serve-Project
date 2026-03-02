@@ -1,57 +1,77 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Domain.Contracts;
 using Domain.Entities;
-
-using Microsoft.AspNetCore.Identity;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Options;
 using Services.Abstractions;
+using Microsoft.AspNetCore.Identity;
 using Shared;
+//using System.Threading.Tasks;
+//using System.Linq;
+//using System;
 
-namespace Servcies
-{
-    public class AuthenticationService(UserManager<User> userManager): IAuthenticationService
+namespace Services { 
+    public class AuthenticationService : IAuthenticationService 
     {
+        private readonly UserManager<User> _userManager;
+        private readonly IJwtTokenService _jwtTokenService;
+
+        public AuthenticationService(
+            UserManager<User> userManager,
+            IJwtTokenService jwtTokenService)
+        {
+            _userManager = userManager;
+            _jwtTokenService = jwtTokenService;
+        }
+
         public async Task<UserResultDto> LoginAsync(LoginDto loginDto)
         {
-            //Check If The User Under This Email
-            var User = await userManager.FindByEmailAsync(loginDto.Email);
-            if (User == null) throw new Exception("Email Doesn't Exist");
-            //Check If The Password is Correct For This Email
-            var Result = await userManager.CheckPasswordAsync(User, loginDto.Password);
-            if (!Result) throw new Exception("Password Is InCorrect");
-            //Create Token And Return Response
-            return new UserResultDto
-               (
-                User.DisplayName,
-                User.Email,
-                 "Token"
-                );
+            var user = await _userManager.FindByEmailAsync(loginDto.Email);
+
+            
+            if (user == null || !await _userManager.CheckPasswordAsync(user, loginDto.Password))
+            {
+
+                throw new Exception("Invalid email or password");
+            }
+
+            var roles = await _userManager.GetRolesAsync(user);
+            var token = _jwtTokenService.GenerateToken(user, roles);
+
+            return new UserResultDto(
+                user.DisplayName,
+                user.Email,
+                token
+            );
         }
+
         public async Task<UserResultDto> RegisterAsync(UserRegisterDto registerDto)
         {
-            var User = new User()
+            var user = new User()
             {
                 Email = registerDto.Email,
                 DisplayName = registerDto.DisplayName,
                 PhoneNumber = registerDto.PhoneNumber,
-                UserName = registerDto.UserName,
+                UserName = registerDto.UserName, 
             };
-            var Result = await userManager.CreateAsync(User, registerDto.Password);
-            if (!Result.Succeeded)
+
+            var result = await _userManager.CreateAsync(user, registerDto.Password);
+
+            if (!result.Succeeded)
             {
-                var errors = Result.Errors.Select(e => e.Description).ToList();
-                throw new Exception();
+                var errors = string.Join(", ", result.Errors.Select(e => e.Description));
+                throw new Exception($"Registration failed: {errors}");
             }
+
+           
+            string defaultRole = "Consumer";
+            await _userManager.AddToRoleAsync(user, defaultRole);
+
+            var roles = await _userManager.GetRolesAsync(user);
+            var token = _jwtTokenService.GenerateToken(user, roles);
+
             return new UserResultDto(
-                User.DisplayName,
-                User.Email,
-                "Token"
-                 );
+                user.DisplayName,
+                user.Email,
+                token
+            );
         }
     }
 }
