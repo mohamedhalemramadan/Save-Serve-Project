@@ -1,8 +1,10 @@
 ﻿using Domain.Contracts;
+using Domain.Contracts.Domain.Contracts;
 using Domain.Entities;
 using E_Commerce.Extensions;
 using Microsoft.AspNetCore.Identity;
 using Persistance.Identity;
+using Persistance.Repositories;
 using Persistance.Services;
 using Services;
 using Services.Abstractions;
@@ -26,10 +28,26 @@ namespace Save_Serve
                 .AddApplicationPart(typeof(Presentaion.AssemblyReference).Assembly);
 
             builder.Services.AddScoped<IServiceManager, ServiceManager>();
-
+            builder.Services.AddScoped<IRestaurantRepository, RestaurantRepository>();
+            builder.Services.AddScoped<IConsumerRepository, ConsumerRepository>();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowFrontend", policy =>
+                {
+                    policy.WithOrigins(
+                            "http://localhost:3000",  // React default
+                            "http://localhost:5173",  // Vite default
+                            "http://localhost:4200")  // Angular default
+                          .AllowAnyMethod()
+                          .AllowAnyHeader()
+                          .AllowCredentials();
+                });
+            });
 
             var app = builder.Build();
 
@@ -39,7 +57,7 @@ namespace Save_Serve
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
-
+            app.UseCors("AllowFrontend");
             app.UseHttpsRedirection();
             app.UseAuthorization();
             app.MapControllers();

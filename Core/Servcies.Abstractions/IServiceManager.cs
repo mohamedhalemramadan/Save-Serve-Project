@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Servcies.Abstractions;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,6 +12,8 @@ namespace Services.Abstractions
      
         
         public IAuthenticationService AuthenticationService { get; }
-        
+        public IRestaurantService RestaurantService { get; }
+        public IConsumerService ConsumerService { get; }
+
     }
 }
