@@ -3,12 +3,14 @@ using Domain.Entities;
 using Services.Abstractions;
 using Microsoft.AspNetCore.Identity;
 using Shared;
-//using System.Threading.Tasks;
-//using System.Linq;
-//using System;
+using System.Linq;
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
-namespace Services { 
-    public class AuthenticationService : IAuthenticationService 
+namespace Services
+{
+    public class AuthenticationService : IAuthenticationService
     {
         private readonly UserManager<User> _userManager;
         private readonly IJwtTokenService _jwtTokenService;
@@ -25,21 +27,15 @@ namespace Services {
         {
             var user = await _userManager.FindByEmailAsync(loginDto.Email);
 
-            
             if (user == null || !await _userManager.CheckPasswordAsync(user, loginDto.Password))
             {
-
                 throw new Exception("Invalid email or password");
             }
 
             var roles = await _userManager.GetRolesAsync(user);
             var token = _jwtTokenService.GenerateToken(user, roles);
 
-            return new UserResultDto(
-                user.DisplayName,
-                user.Email,
-                token
-            );
+            return new UserResultDto(user.DisplayName, user.Email, token);
         }
 
         public async Task<UserResultDto> RegisterAsync(UserRegisterDto registerDto)
@@ -49,7 +45,7 @@ namespace Services {
                 Email = registerDto.Email,
                 DisplayName = registerDto.DisplayName,
                 PhoneNumber = registerDto.PhoneNumber,
-                UserName = registerDto.UserName, 
+                UserName = registerDto.UserName,
             };
 
             var result = await _userManager.CreateAsync(user, registerDto.Password);
@@ -60,18 +56,15 @@ namespace Services {
                 throw new Exception($"Registration failed: {errors}");
             }
 
-           
-            string defaultRole = "Consumer";
-            await _userManager.AddToRoleAsync(user, defaultRole);
+            // ⭐ تم تعطيل الـ Role مؤقتاً لتجنب مشاكل الـ Database حالياً
+            // string defaultRole = "Consumer";
+            // await _userManager.AddToRoleAsync(user, defaultRole);
 
-            var roles = await _userManager.GetRolesAsync(user);
+            // بنبعت List فاضية للـ Token حالياً عشان الـ Register يكمل
+            var roles = new List<string>();
             var token = _jwtTokenService.GenerateToken(user, roles);
 
-            return new UserResultDto(
-                user.DisplayName,
-                user.Email,
-                token
-            );
+            return new UserResultDto(user.DisplayName, user.Email, token);
         }
     }
 }

@@ -15,25 +15,35 @@ namespace Save_Serve
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container
+            // 1. تعريف سياسة الـ CORS (تعديلك إنتي)
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowReactApp",
+                    policy => policy.SetIsOriginAllowed(origin => new Uri(origin).Host == "localhost")
+                                    .AllowAnyMethod()
+                                    .AllowAnyHeader());
+            });
+
+            // 2. إضافة خدمات المشروع الأساسية
             builder.Services.AddInfraStructureServices(builder.Configuration);
 
-            // ⭐ Register JWT Token Service
+            // تسجيل خدمة الـ JWT
             builder.Services.AddScoped<IJwtTokenService, JwtTokenService>();
 
-            builder.Services.AddControllers();
+            // إعداد الـ Controllers وربطها بالـ Presentation Layer
             builder.Services.AddControllers()
                 .AddApplicationPart(typeof(Presentaion.AssemblyReference).Assembly);
 
+            // تسجيل الـ Service Manager
             builder.Services.AddScoped<IServiceManager, ServiceManager>();
 
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+            // إعداد Swagger
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline
+            // 3. إعدادات بيئة التطوير
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
@@ -41,8 +51,14 @@ namespace Save_Serve
             }
 
             app.UseHttpsRedirection();
+
+            // 4. تفعيل الـ CORS (لازم يكون قبل الـ Authorization)
+            app.UseCors("AllowReactApp");
+
             app.UseAuthorization();
+
             app.MapControllers();
+
 
             app.Run();
         }
