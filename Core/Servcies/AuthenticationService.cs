@@ -23,7 +23,7 @@ namespace Services
             _jwtTokenService = jwtTokenService;
         }
 
-        public async Task<UserResultDto> LoginAsync(LoginDto loginDto)
+        public async Task<UserLoginResultDto> LoginAsync(LoginDto loginDto)
         {
             var user = await _userManager.FindByEmailAsync(loginDto.Email);
 
@@ -35,10 +35,10 @@ namespace Services
             var roles = await _userManager.GetRolesAsync(user);
             var token = _jwtTokenService.GenerateToken(user, roles);
 
-            return new UserResultDto(user.DisplayName, user.Email, token ,user.Role);
+            return new UserLoginResultDto(user.DisplayName, user.Email, token, user.Role);
         }
 
-        public async Task<UserResultDto> RegisterAsync(UserRegisterDto registerDto)
+        public async Task<UserRegisterResultDto> RegisterAsync(UserRegisterDto registerDto)
         {
             var user = new User()
             {
@@ -47,6 +47,15 @@ namespace Services
                 PhoneNumber = registerDto.PhoneNumber,
                 UserName = registerDto.UserName,
                 Role = registerDto.Role,
+                NationalId = registerDto.NationalId,
+                VehicleType = registerDto.VehicleType,
+                VehicleNumber = registerDto.VehicleNumber,
+                Zone = registerDto.Zone ,
+                WorkHours = registerDto.WorkHours ,
+                RegistrationNo = registerDto.RegistrationNo,
+                OrganizationName = registerDto.OrganizationName ,
+                Mission = registerDto.Mission ,
+                CuisineType = registerDto.CuisineType
             };
 
             var result = await _userManager.CreateAsync(user, registerDto.Password);
@@ -64,7 +73,7 @@ namespace Services
             var roles = await _userManager.GetRolesAsync(user);
             var token = _jwtTokenService.GenerateToken(user, roles);
 
-            return new UserResultDto(user.DisplayName, user.Email, token  ,user.Role);
+            return new UserRegisterResultDto(user.DisplayName, user.Email, token  ,user.Role ,user.NationalId ,user.VehicleType ,user.VehicleNumber ,user.Zone ,user.WorkHours ,user.RegistrationNo ,user.OrganizationName ,user.CuisineType);
         }
 
 

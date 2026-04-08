@@ -19,6 +19,18 @@ namespace Domain.Entities
         public string Status { get; set; } // Active/Inactive
         public string AddressText { get; set; }
 
+
+        // ✅ Nullable fields
+        public string? NationalId { get; init; }
+        public string? VehicleType { get; init; }
+        public string? VehicleNumber { get; init; }
+        public string? Zone { get; init; }
+        public string? WorkHours { get; init; }
+        public string? RegistrationNo { get; init; }
+        public string? OrganizationName { get; init; }
+        public string? Mission { get; init; }
+        public string? CuisineType { get; init; }
+
         // Navigation Properties
 
 

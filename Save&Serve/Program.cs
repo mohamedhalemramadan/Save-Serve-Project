@@ -2,7 +2,9 @@
 using Domain.Contracts.Domain.Contracts;
 using Domain.Entities;
 using E_Commerce.Extensions;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.IdentityModel.Tokens;
 using Persistance.Identity;
 using Persistance.Repositories;
 using Persistance.Services;
@@ -11,6 +13,7 @@ using Servcies;
 using Servcies.Abstractions;
 using Services;
 using Services.Abstractions;
+using System.Text;
 
 namespace Save_Serve
 {
@@ -45,17 +48,86 @@ namespace Save_Serve
             builder.Services.AddControllers()
                 .AddApplicationPart(typeof(Presentaion.AssemblyReference).Assembly);
 
+<<<<<<< HEAD
           
+=======
+
+
+            builder.Services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "My API", Version = "v1" });
+
+                // تكوين المصادقة
+                c.AddSecurityDefinition("Bearer", new Microsoft.OpenApi.Models.OpenApiSecurityScheme
+                {
+                    Description = "JWT Authorization header using the Bearer scheme. Example: \"Bearer {token}\"",
+                    Name = "Authorization",
+                    In = Microsoft.OpenApi.Models.ParameterLocation.Header,
+                    Type = Microsoft.OpenApi.Models.SecuritySchemeType.ApiKey,
+                    Scheme = "Bearer"
+                });
+
+                c.AddSecurityRequirement(new Microsoft.OpenApi.Models.OpenApiSecurityRequirement
+    {
+        {
+            new Microsoft.OpenApi.Models.OpenApiSecurityScheme
+            {
+                Reference = new Microsoft.OpenApi.Models.OpenApiReference
+                {
+                    Type = Microsoft.OpenApi.Models.ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                }
+            },
+            new string[] {}
+        }
+    });
+            });
+
+
+
+
+            // تسجيل الـ Service Manager
+>>>>>>> 0e718941efe06030ebf5077d42446554841daa92
             builder.Services.AddScoped<IServiceManager, ServiceManager>();
 
             builder.Services.AddScoped<IRestaurantRepository, RestaurantRepository>();
             builder.Services.AddScoped<IConsumerRepository, ConsumerRepository>();
+            builder.Services.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            }).AddJwtBearer(options =>
+            {
+                options.RequireHttpsMetadata = false;
+                options.SaveToken =true;
+                options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
+                {
+                    ValidateIssuer = true,
+                    ValidateAudience = true,
+                    ValidateLifetime = true,
+                    ValidateIssuerSigningKey = true,
+                    ValidIssuer = builder.Configuration["JwtSettings:Issuer"],
+                    ValidAudience = builder.Configuration["JwtSettings:Audience"],
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JwtSettings:SecretKey"]))
+                };
+
+            });
+
+            builder.Services.AddAuthorization();
+         
+
+
 
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+            builder.Services.AddControllers();
 
+<<<<<<< HEAD
           
+=======
+           
+>>>>>>> 0e718941efe06030ebf5077d42446554841daa92
             builder.Services.AddCors(options =>
             {
                 options.AddPolicy("AllowFrontend", policy =>
@@ -78,13 +150,20 @@ namespace Save_Serve
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
-            app.UseCors("AllowFrontend");
+           
             app.UseHttpsRedirection();
+<<<<<<< HEAD
            await app.SeedDbAsync();
 
            
            // app.UseCors("AllowReactApp");
 
+=======
+            app.SeedDbAsync();
+            app.UseRouting();
+            // 4. تفعيل الـ CORS (لازم يكون قبل الـ Authorization)
+            app.UseCors("AllowFrontend");
+>>>>>>> 0e718941efe06030ebf5077d42446554841daa92
             app.UseAuthentication();
             app.UseAuthorization();
 
@@ -92,6 +171,14 @@ namespace Save_Serve
 
 
             app.Run();
+
+
+            
+
+            
+           
+
+            
         }
     }
 }

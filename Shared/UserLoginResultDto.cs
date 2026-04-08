@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Shared
 {
-    public record UserResultDto(string DisplayName  , string Email, string Token ,string role )
+    public record UserLoginResultDto(string DisplayName, string Email, string Token, string role )
     {
     }
 }

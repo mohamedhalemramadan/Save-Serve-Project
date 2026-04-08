@@ -22,6 +22,12 @@ namespace Presentaion
         {
             _serviceManager = serviceManager;
         }
+        [HttpGet("whoami")]
+        [Authorize]
+        public IActionResult WhoAmI()
+        {
+            return Ok(User.Claims.Select(c => new { c.Type, c.Value }));
+        }
 
         // GET: api/consumer
         [HttpGet]

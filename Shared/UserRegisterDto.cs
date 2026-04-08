@@ -9,17 +9,24 @@ namespace Shared
 {
     public record UserRegisterDto
     {
-        [Required(ErrorMessage = "DisplayName Is Required !!")]
         public string DisplayName { get; init; }
-        [EmailAddress]
-        public string Email { get; init; }
-        [Required(ErrorMessage = "Password Is Requird ")]
-        public string Password { get; init; }
-        [Required(ErrorMessage = "UserName Is Required")]
         public string UserName { get; init; }
-        public string? PhoneNumber { get; init; }
+        public string Email { get; init; }
+        public string Password { get; init; }
+        public string PhoneNumber { get; init; }
+        public string Address { get; init; }
         public string Role { get; init; }
 
+        // ✅ Nullable fields
+        public string? NationalId { get; init; }
+        public string? VehicleType { get; init; }
+        public string? VehicleNumber { get; init; }
+        public string? Zone { get; init; }
+        public string? WorkHours { get; init; }
+        public string? RegistrationNo { get; init; }
+        public string? OrganizationName { get; init; }
+        public string? Mission { get; init; }
+        public string? CuisineType { get; init ; }
 
     }
 }

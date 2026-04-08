@@ -15,7 +15,7 @@ namespace Presentaion
         #region Login
         //Authentication/Login
         [HttpPost("Login")]
-        public async Task<ActionResult<UserResultDto>> Login(LoginDto loginDto)
+        public async Task<ActionResult<UserLoginResultDto>> Login(LoginDto loginDto)
         {
             var Result = await serviceManager.AuthenticationService.LoginAsync(loginDto);
             return Ok(Result);
@@ -24,7 +24,7 @@ namespace Presentaion
         #endregion
         #region Register
         [HttpPost("Register")]
-        public async Task<ActionResult<UserResultDto>> Register(UserRegisterDto userRegisterDto)
+        public async Task<ActionResult<UserRegisterResultDto>> Register(UserRegisterDto userRegisterDto)
         {
             var Result = await serviceManager.AuthenticationService.RegisterAsync(userRegisterDto);
             return Ok(Result);

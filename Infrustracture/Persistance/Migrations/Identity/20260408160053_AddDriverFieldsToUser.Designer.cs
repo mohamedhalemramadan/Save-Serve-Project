@@ -3,17 +3,20 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Persistance.Identity;
 
 #nullable disable
 
-namespace Persistance.Identity.migration
+namespace Persistance.Migrations.Identity
 {
     [DbContext(typeof(StoreIdentityContext))]
-    partial class StoreIdentityContextModelSnapshot : ModelSnapshot
+    [Migration("20260408160053_AddDriverFieldsToUser")]
+    partial class AddDriverFieldsToUser
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -550,12 +553,7 @@ namespace Persistance.Identity.migration
 
                     b.Property<string>("AddressText")
                         .IsRequired()
-
-                        .HasColumnType("nvarchar(max)")
-               
-                        .HasMaxLength(500)
-                        .HasColumnType("nvarchar(500)");
-
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("CuisineType")
                         .HasColumnType("nvarchar(max)");
@@ -575,7 +573,6 @@ namespace Persistance.Identity.migration
 
                     b.Property<string>("Phone")
                         .IsRequired()
-
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("RegistrationNo")
@@ -587,21 +584,7 @@ namespace Persistance.Identity.migration
 
                     b.Property<string>("Status")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)")
-
-                        .HasMaxLength(20)
-                        .HasColumnType("nvarchar(20)");
-
-                    b.Property<string>("Role")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
-                    b.Property<string>("Status")
-                        .IsRequired()
-                        .HasMaxLength(20)
-                        .HasColumnType("nvarchar(20)");
-
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("VehicleNumber")
                         .HasColumnType("nvarchar(max)");

@@ -11,8 +11,8 @@ namespace Services.Abstractions
     public interface IAuthenticationService
     {
         Task<string> ForgotPasswordAsync(ForgotPasswordDto dto);
-        public Task<UserResultDto> LoginAsync(LoginDto loginDto);
-        public Task<UserResultDto> RegisterAsync(UserRegisterDto registerDto);
+        public Task<UserLoginResultDto> LoginAsync(LoginDto loginDto);
+        public Task<UserRegisterResultDto> RegisterAsync(UserRegisterDto registerDto);
         Task ResetPasswordAsync(ResetPasswordDto dto);
     }
 
