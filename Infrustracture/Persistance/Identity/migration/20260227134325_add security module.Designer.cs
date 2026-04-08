@@ -12,7 +12,7 @@ namespace Persistance.Identity.migration
 {
     [DbContext(typeof(StoreIdentityContext))]
     [Migration("20260227134325_add security module")]
-    partial class addsecuritymodule
+    partial class Addsecuritymodule
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

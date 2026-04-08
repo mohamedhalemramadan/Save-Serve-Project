@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace Persistance.Identity.migration
+namespace Persistance.Migrations
 {
     /// <inheritdoc />
     public partial class FrontEdition : Migration

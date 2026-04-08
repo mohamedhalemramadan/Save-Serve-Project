@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Persistance.Identity.migration
 {
     /// <inheritdoc />
-    public partial class addsecuritymodule : Migration
+    public partial class Addsecuritymodule : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

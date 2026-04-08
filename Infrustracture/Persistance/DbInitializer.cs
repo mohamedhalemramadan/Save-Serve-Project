@@ -76,6 +76,7 @@ namespace Persistance
                     UserName = "CharityUser",
                 };
 
+
                 // Create Users
                 await _userManager.CreateAsync(AdminUser, "Passw0rd@123");
                 await _userManager.CreateAsync(RestaurantUser, "Passw0rd@123");

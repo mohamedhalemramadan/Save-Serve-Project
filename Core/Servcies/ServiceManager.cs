@@ -1,11 +1,11 @@
-﻿// Services/ServiceManager.cs
+﻿using Domain.Contracts.Domain.Contracts;
 using Domain.Contracts;
 using Domain.Entities;
 using Microsoft.AspNetCore.Identity;
-using Servcies;
 using Servcies.Abstractions;
-using Services;
+using Servcies;
 using Services.Abstractions;
+using Services;
 
 public class ServiceManager : IServiceManager
 {
@@ -13,20 +13,21 @@ public class ServiceManager : IServiceManager
     private readonly Lazy<IRestaurantService> _restaurantService;
     private readonly Lazy<IConsumerService> _consumerService;
 
-
     public ServiceManager(
         IUnitOfWork unitOfWork,
         UserManager<User> userManager,
         IJwtTokenService jwtTokenService,
-        IConsumerRepository consumerRepository)
+        IConsumerRepository consumerRepository,
+        IRestaurantRepository restaurantRepository) 
     {
         _authenticationService = new Lazy<IAuthenticationService>(
             () => new AuthenticationService(userManager, jwtTokenService));
+
         _consumerService = new Lazy<IConsumerService>(
-            () => new ConsumerService(unitOfWork ,consumerRepository));
+            () => new ConsumerService(unitOfWork, consumerRepository));
 
         _restaurantService = new Lazy<IRestaurantService>(
-            () => new RestaurantService(unitOfWork));
+            () => new RestaurantService(unitOfWork, restaurantRepository)); 
     }
 
     public IAuthenticationService AuthenticationService => _authenticationService.Value;

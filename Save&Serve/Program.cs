@@ -6,6 +6,9 @@ using Microsoft.AspNetCore.Identity;
 using Persistance.Identity;
 using Persistance.Repositories;
 using Persistance.Services;
+using Presentaion;
+using Servcies;
+using Servcies.Abstractions;
 using Services;
 using Services.Abstractions;
 
@@ -17,7 +20,7 @@ namespace Save_Serve
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // 1. تعريف سياسة الـ CORS (تعديلك إنتي)
+           
             builder.Services.AddCors(options =>
             {
                 options.AddPolicy("AllowReactApp",
@@ -26,17 +29,23 @@ namespace Save_Serve
                                     .AllowAnyHeader());
             });
 
-            // 2. إضافة خدمات المشروع الأساسية
+           
             builder.Services.AddInfraStructureServices(builder.Configuration);
 
-            // تسجيل خدمة الـ JWT
+         
             builder.Services.AddScoped<IJwtTokenService, JwtTokenService>();
+            builder.Services.AddScoped<IAuthenticationService, AuthenticationService>();
+            builder.Services.AddScoped<IPasswordHasher<User>, PasswordHasher<User>>();
+           
+            builder.Services.AddScoped<IConsumerService, ConsumerService>();  
+            builder.Services.AddScoped<IRestaurantService, RestaurantService>();
 
-            // إعداد الـ Controllers وربطها بالـ Presentation Layer
+           
+
             builder.Services.AddControllers()
                 .AddApplicationPart(typeof(Presentaion.AssemblyReference).Assembly);
 
-            // تسجيل الـ Service Manager
+          
             builder.Services.AddScoped<IServiceManager, ServiceManager>();
 
             builder.Services.AddScoped<IRestaurantRepository, RestaurantRepository>();
@@ -46,6 +55,7 @@ namespace Save_Serve
             builder.Services.AddSwaggerGen();
 
 
+          
             builder.Services.AddCors(options =>
             {
                 options.AddPolicy("AllowFrontend", policy =>
@@ -62,7 +72,7 @@ namespace Save_Serve
 
             var app = builder.Build();
 
-            // 3. إعدادات بيئة التطوير
+            
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
@@ -70,11 +80,12 @@ namespace Save_Serve
             }
             app.UseCors("AllowFrontend");
             app.UseHttpsRedirection();
-            app.SeedDbAsync();
+           await app.SeedDbAsync();
 
-            // 4. تفعيل الـ CORS (لازم يكون قبل الـ Authorization)
-            app.UseCors("AllowReactApp");
+           
+           // app.UseCors("AllowReactApp");
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapControllers();

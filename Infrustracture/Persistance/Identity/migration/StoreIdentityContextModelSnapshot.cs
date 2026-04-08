@@ -497,7 +497,12 @@ namespace Persistance.Identity.migration
 
                     b.Property<string>("AddressText")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+
+                        .HasColumnType("nvarchar(max)")
+               
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
+
 
                     b.Property<string>("DisplayName")
                         .IsRequired()
@@ -505,6 +510,7 @@ namespace Persistance.Identity.migration
 
                     b.Property<string>("Phone")
                         .IsRequired()
+
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Role")
@@ -513,7 +519,21 @@ namespace Persistance.Identity.migration
 
                     b.Property<string>("Status")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(max)")
+
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
+
+                    b.Property<string>("Role")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
+
 
                     b.HasDiscriminator().HasValue("User");
                 });

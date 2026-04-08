@@ -11,6 +11,8 @@ using System.Threading.Tasks;
 
 namespace Presentaion
 {
+    [Route("api/[controller]")]
+    [ApiController]
     public class RestaurantController : ApiController
     {
         private readonly IServiceManager _serviceManager;

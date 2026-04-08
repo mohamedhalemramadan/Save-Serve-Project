@@ -12,7 +12,7 @@ namespace Persistance.Migrations
 {
     [DbContext(typeof(StoreDBContext))]
     [Migration("20260227121120_intial creation")]
-    partial class intialcreation
+    partial class Intialcreation
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

@@ -9,6 +9,7 @@ using Shared;
 
 namespace Presentaion
 {
+    [Route("api/[controller]")]
     public class AuthenticationController(IServiceManager serviceManager) : ApiController
     {
         #region Login
