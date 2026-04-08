@@ -1,7 +1,196 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\Save-Serve-Project\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{688B0690-E8D5-472F-AC3A-AA516BA914FD}|Save\u0026Serve\\Save\u0026Serve.csproj|c:\\users\\c.city\\source\\repos\\save-serve-project\\save\u0026serve\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{688B0690-E8D5-472F-AC3A-AA516BA914FD}|Save\u0026Serve\\Save\u0026Serve.csproj|solutionrelative:save\u0026serve\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92EA437F-4544-4916-8F87-C41FEF2EC311}|Core\\Servcies\\Servcies.csproj|c:\\users\\c.city\\source\\repos\\save-serve-project\\core\\servcies\\servicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92EA437F-4544-4916-8F87-C41FEF2EC311}|Core\\Servcies\\Servcies.csproj|solutionrelative:core\\servcies\\servicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92EA437F-4544-4916-8F87-C41FEF2EC311}|Core\\Servcies\\Servcies.csproj|c:\\users\\c.city\\source\\repos\\save-serve-project\\core\\servcies\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92EA437F-4544-4916-8F87-C41FEF2EC311}|Core\\Servcies\\Servcies.csproj|solutionrelative:core\\servcies\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{688B0690-E8D5-472F-AC3A-AA516BA914FD}|Save\u0026Serve\\Save\u0026Serve.csproj|c:\\users\\c.city\\source\\repos\\save-serve-project\\save\u0026serve\\extensions\\webapplicationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{688B0690-E8D5-472F-AC3A-AA516BA914FD}|Save\u0026Serve\\Save\u0026Serve.csproj|solutionrelative:save\u0026serve\\extensions\\webapplicationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F2325B4-7017-4FAA-BC03-4A4F0525CCDC}|Core\\Domain\\Domain.csproj|c:\\users\\c.city\\source\\repos\\save-serve-project\\core\\domain\\contracts\\idbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F2325B4-7017-4FAA-BC03-4A4F0525CCDC}|Core\\Domain\\Domain.csproj|solutionrelative:core\\domain\\contracts\\idbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4663C2C3-D6E8-4F59-8ACB-D58EDC27E44E}|Infrustracture\\Persistance\\Persistance.csproj|c:\\users\\c.city\\source\\repos\\save-serve-project\\infrustracture\\persistance\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4663C2C3-D6E8-4F59-8ACB-D58EDC27E44E}|Infrustracture\\Persistance\\Persistance.csproj|solutionrelative:infrustracture\\persistance\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{688B0690-E8D5-472F-AC3A-AA516BA914FD}|Save\u0026Serve\\Save\u0026Serve.csproj|c:\\users\\c.city\\source\\repos\\save-serve-project\\save\u0026serve\\extensions\\infrastructureserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{688B0690-E8D5-472F-AC3A-AA516BA914FD}|Save\u0026Serve\\Save\u0026Serve.csproj|solutionrelative:save\u0026serve\\extensions\\infrastructureserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92EA437F-4544-4916-8F87-C41FEF2EC311}|Core\\Servcies\\Servcies.csproj|c:\\users\\c.city\\source\\repos\\save-serve-project\\core\\servcies\\consumerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92EA437F-4544-4916-8F87-C41FEF2EC311}|Core\\Servcies\\Servcies.csproj|solutionrelative:core\\servcies\\consumerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8FBAB39-5FA8-47C8-9FCD-0E01FBCA1E5D}|Core\\Servcies.Abstractions\\Servcies.Abstractions.csproj|c:\\users\\c.city\\source\\repos\\save-serve-project\\core\\servcies.abstractions\\iservicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8FBAB39-5FA8-47C8-9FCD-0E01FBCA1E5D}|Core\\Servcies.Abstractions\\Servcies.Abstractions.csproj|solutionrelative:core\\servcies.abstractions\\iservicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8FBAB39-5FA8-47C8-9FCD-0E01FBCA1E5D}|Core\\Servcies.Abstractions\\Servcies.Abstractions.csproj|c:\\users\\c.city\\source\\repos\\save-serve-project\\core\\servcies.abstractions\\iconsumerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8FBAB39-5FA8-47C8-9FCD-0E01FBCA1E5D}|Core\\Servcies.Abstractions\\Servcies.Abstractions.csproj|solutionrelative:core\\servcies.abstractions\\iconsumerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4663C2C3-D6E8-4F59-8ACB-D58EDC27E44E}|Infrustracture\\Persistance\\Persistance.csproj|c:\\users\\c.city\\source\\repos\\save-serve-project\\infrustracture\\persistance\\migrations\\20260408183642_fixrestaurantuserid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4663C2C3-D6E8-4F59-8ACB-D58EDC27E44E}|Infrustracture\\Persistance\\Persistance.csproj|solutionrelative:infrustracture\\persistance\\migrations\\20260408183642_fixrestaurantuserid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F2325B4-7017-4FAA-BC03-4A4F0525CCDC}|Core\\Domain\\Domain.csproj|c:\\users\\c.city\\source\\repos\\save-serve-project\\core\\domain\\entities\\restraunt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F2325B4-7017-4FAA-BC03-4A4F0525CCDC}|Core\\Domain\\Domain.csproj|solutionrelative:core\\domain\\entities\\restraunt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5425FFCF-7B04-4286-97EC-85F51B170B37}|Infrustracture\\Presentaion\\Presentaion.csproj|c:\\users\\c.city\\source\\repos\\save-serve-project\\infrustracture\\presentaion\\restaurantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5425FFCF-7B04-4286-97EC-85F51B170B37}|Infrustracture\\Presentaion\\Presentaion.csproj|solutionrelative:infrustracture\\presentaion\\restaurantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5425FFCF-7B04-4286-97EC-85F51B170B37}|Infrustracture\\Presentaion\\Presentaion.csproj|c:\\users\\c.city\\source\\repos\\save-serve-project\\infrustracture\\presentaion\\apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5425FFCF-7B04-4286-97EC-85F51B170B37}|Infrustracture\\Presentaion\\Presentaion.csproj|solutionrelative:infrustracture\\presentaion\\apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5425FFCF-7B04-4286-97EC-85F51B170B37}|Infrustracture\\Presentaion\\Presentaion.csproj|c:\\users\\c.city\\source\\repos\\save-serve-project\\infrustracture\\presentaion\\consumercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5425FFCF-7B04-4286-97EC-85F51B170B37}|Infrustracture\\Presentaion\\Presentaion.csproj|solutionrelative:infrustracture\\presentaion\\consumercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8FBAB39-5FA8-47C8-9FCD-0E01FBCA1E5D}|Core\\Servcies.Abstractions\\Servcies.Abstractions.csproj|c:\\users\\c.city\\source\\repos\\save-serve-project\\core\\servcies.abstractions\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8FBAB39-5FA8-47C8-9FCD-0E01FBCA1E5D}|Core\\Servcies.Abstractions\\Servcies.Abstractions.csproj|solutionrelative:core\\servcies.abstractions\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4663C2C3-D6E8-4F59-8ACB-D58EDC27E44E}|Infrustracture\\Persistance\\Persistance.csproj|c:\\users\\c.city\\source\\repos\\save-serve-project\\infrustracture\\persistance\\services\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4663C2C3-D6E8-4F59-8ACB-D58EDC27E44E}|Infrustracture\\Persistance\\Persistance.csproj|solutionrelative:infrustracture\\persistance\\services\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5425FFCF-7B04-4286-97EC-85F51B170B37}|Infrustracture\\Presentaion\\Presentaion.csproj|c:\\users\\c.city\\source\\repos\\save-serve-project\\infrustracture\\presentaion\\assemblyreference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5425FFCF-7B04-4286-97EC-85F51B170B37}|Infrustracture\\Presentaion\\Presentaion.csproj|solutionrelative:infrustracture\\presentaion\\assemblyreference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{688B0690-E8D5-472F-AC3A-AA516BA914FD}|Save\u0026Serve\\Save\u0026Serve.csproj|c:\\users\\c.city\\source\\repos\\save-serve-project\\save\u0026serve\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{688B0690-E8D5-472F-AC3A-AA516BA914FD}|Save\u0026Serve\\Save\u0026Serve.csproj|solutionrelative:save\u0026serve\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4663C2C3-D6E8-4F59-8ACB-D58EDC27E44E}|Infrustracture\\Persistance\\Persistance.csproj|c:\\users\\c.city\\source\\repos\\save-serve-project\\infrustracture\\persistance\\identity\\migration\\storeidentitycontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4663C2C3-D6E8-4F59-8ACB-D58EDC27E44E}|Infrustracture\\Persistance\\Persistance.csproj|solutionrelative:infrustracture\\persistance\\identity\\migration\\storeidentitycontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5425FFCF-7B04-4286-97EC-85F51B170B37}|Infrustracture\\Presentaion\\Presentaion.csproj|c:\\users\\c.city\\source\\repos\\save-serve-project\\infrustracture\\presentaion\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5425FFCF-7B04-4286-97EC-85F51B170B37}|Infrustracture\\Presentaion\\Presentaion.csproj|solutionrelative:infrustracture\\presentaion\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4663C2C3-D6E8-4F59-8ACB-D58EDC27E44E}|Infrustracture\\Persistance\\Persistance.csproj|c:\\users\\c.city\\source\\repos\\save-serve-project\\infrustracture\\persistance\\dates\\configurations\\restaurantconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4663C2C3-D6E8-4F59-8ACB-D58EDC27E44E}|Infrustracture\\Persistance\\Persistance.csproj|solutionrelative:infrustracture\\persistance\\dates\\configurations\\restaurantconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4663C2C3-D6E8-4F59-8ACB-D58EDC27E44E}|Infrustracture\\Persistance\\Persistance.csproj|c:\\users\\c.city\\source\\repos\\save-serve-project\\infrustracture\\persistance\\dates\\configurations\\consumerconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4663C2C3-D6E8-4F59-8ACB-D58EDC27E44E}|Infrustracture\\Persistance\\Persistance.csproj|solutionrelative:infrustracture\\persistance\\dates\\configurations\\consumerconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{688B0690-E8D5-472F-AC3A-AA516BA914FD}|Save\u0026Serve\\Save\u0026Serve.csproj|c:\\users\\c.city\\source\\repos\\save-serve-project\\save\u0026serve\\extensions\\persenationsservicesextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{688B0690-E8D5-472F-AC3A-AA516BA914FD}|Save\u0026Serve\\Save\u0026Serve.csproj|solutionrelative:save\u0026serve\\extensions\\persenationsservicesextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4663C2C3-D6E8-4F59-8ACB-D58EDC27E44E}|Infrustracture\\Persistance\\Persistance.csproj|c:\\users\\c.city\\source\\repos\\save-serve-project\\infrustracture\\persistance\\migrations\\20260405230526_addrestaurantconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4663C2C3-D6E8-4F59-8ACB-D58EDC27E44E}|Infrustracture\\Persistance\\Persistance.csproj|solutionrelative:infrustracture\\persistance\\migrations\\20260405230526_addrestaurantconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4663C2C3-D6E8-4F59-8ACB-D58EDC27E44E}|Infrustracture\\Persistance\\Persistance.csproj|c:\\users\\c.city\\source\\repos\\save-serve-project\\infrustracture\\persistance\\identity\\storeidentitycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4663C2C3-D6E8-4F59-8ACB-D58EDC27E44E}|Infrustracture\\Persistance\\Persistance.csproj|solutionrelative:infrustracture\\persistance\\identity\\storeidentitycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F2325B4-7017-4FAA-BC03-4A4F0525CCDC}|Core\\Domain\\Domain.csproj|c:\\users\\c.city\\source\\repos\\save-serve-project\\core\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F2325B4-7017-4FAA-BC03-4A4F0525CCDC}|Core\\Domain\\Domain.csproj|solutionrelative:core\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4663C2C3-D6E8-4F59-8ACB-D58EDC27E44E}|Infrustracture\\Persistance\\Persistance.csproj|c:\\users\\c.city\\source\\repos\\save-serve-project\\infrustracture\\persistance\\migrations\\20260227121120_intial creation.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4663C2C3-D6E8-4F59-8ACB-D58EDC27E44E}|Infrustracture\\Persistance\\Persistance.csproj|solutionrelative:infrustracture\\persistance\\migrations\\20260227121120_intial creation.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4663C2C3-D6E8-4F59-8ACB-D58EDC27E44E}|Infrustracture\\Persistance\\Persistance.csproj|c:\\users\\c.city\\source\\repos\\save-serve-project\\infrustracture\\persistance\\migrations\\20260227121120_intial creation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4663C2C3-D6E8-4F59-8ACB-D58EDC27E44E}|Infrustracture\\Persistance\\Persistance.csproj|solutionrelative:infrustracture\\persistance\\migrations\\20260227121120_intial creation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4663C2C3-D6E8-4F59-8ACB-D58EDC27E44E}|Infrustracture\\Persistance\\Persistance.csproj|c:\\users\\c.city\\source\\repos\\save-serve-project\\infrustracture\\persistance\\identity\\migration\\20260227134325_add security module.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4663C2C3-D6E8-4F59-8ACB-D58EDC27E44E}|Infrustracture\\Persistance\\Persistance.csproj|solutionrelative:infrustracture\\persistance\\identity\\migration\\20260227134325_add security module.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4663C2C3-D6E8-4F59-8ACB-D58EDC27E44E}|Infrustracture\\Persistance\\Persistance.csproj|c:\\users\\c.city\\source\\repos\\save-serve-project\\infrustracture\\persistance\\identity\\migration\\20260227134325_add security module.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4663C2C3-D6E8-4F59-8ACB-D58EDC27E44E}|Infrustracture\\Persistance\\Persistance.csproj|solutionrelative:infrustracture\\persistance\\identity\\migration\\20260227134325_add security module.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4663C2C3-D6E8-4F59-8ACB-D58EDC27E44E}|Infrustracture\\Persistance\\Persistance.csproj|c:\\users\\c.city\\source\\repos\\save-serve-project\\infrustracture\\persistance\\migrations\\storedbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4663C2C3-D6E8-4F59-8ACB-D58EDC27E44E}|Infrustracture\\Persistance\\Persistance.csproj|solutionrelative:infrustracture\\persistance\\migrations\\storedbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4663C2C3-D6E8-4F59-8ACB-D58EDC27E44E}|Infrustracture\\Persistance\\Persistance.csproj|c:\\users\\c.city\\source\\repos\\save-serve-project\\infrustracture\\persistance\\dates\\storedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4663C2C3-D6E8-4F59-8ACB-D58EDC27E44E}|Infrustracture\\Persistance\\Persistance.csproj|solutionrelative:infrustracture\\persistance\\dates\\storedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{688B0690-E8D5-472F-AC3A-AA516BA914FD}|Save\u0026Serve\\Save\u0026Serve.csproj|c:\\users\\c.city\\source\\repos\\save-serve-project\\save\u0026serve\\save\u0026serve.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{688B0690-E8D5-472F-AC3A-AA516BA914FD}|Save\u0026Serve\\Save\u0026Serve.csproj|solutionrelative:save\u0026serve\\save\u0026serve.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F2325B4-7017-4FAA-BC03-4A4F0525CCDC}|Core\\Domain\\Domain.csproj|c:\\users\\c.city\\source\\repos\\save-serve-project\\core\\domain\\entities\\consumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F2325B4-7017-4FAA-BC03-4A4F0525CCDC}|Core\\Domain\\Domain.csproj|solutionrelative:core\\domain\\entities\\consumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AED5933-FC3D-4E23-9A42-06F60D7FF6F1}|Shared\\Shared.csproj|c:\\users\\c.city\\source\\repos\\save-serve-project\\shared\\consumer\\updateconsumerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AED5933-FC3D-4E23-9A42-06F60D7FF6F1}|Shared\\Shared.csproj|solutionrelative:shared\\consumer\\updateconsumerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AED5933-FC3D-4E23-9A42-06F60D7FF6F1}|Shared\\Shared.csproj|c:\\users\\c.city\\source\\repos\\save-serve-project\\shared\\consumer\\createconsumerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AED5933-FC3D-4E23-9A42-06F60D7FF6F1}|Shared\\Shared.csproj|solutionrelative:shared\\consumer\\createconsumerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AED5933-FC3D-4E23-9A42-06F60D7FF6F1}|Shared\\Shared.csproj|c:\\users\\c.city\\source\\repos\\save-serve-project\\shared\\consumer\\consumerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AED5933-FC3D-4E23-9A42-06F60D7FF6F1}|Shared\\Shared.csproj|solutionrelative:shared\\consumer\\consumerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AED5933-FC3D-4E23-9A42-06F60D7FF6F1}|Shared\\Shared.csproj|c:\\users\\c.city\\source\\repos\\save-serve-project\\shared\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AED5933-FC3D-4E23-9A42-06F60D7FF6F1}|Shared\\Shared.csproj|solutionrelative:shared\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AED5933-FC3D-4E23-9A42-06F60D7FF6F1}|Shared\\Shared.csproj|c:\\users\\c.city\\source\\repos\\save-serve-project\\shared\\restaurant\\createrestaurantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AED5933-FC3D-4E23-9A42-06F60D7FF6F1}|Shared\\Shared.csproj|solutionrelative:shared\\restaurant\\createrestaurantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AED5933-FC3D-4E23-9A42-06F60D7FF6F1}|Shared\\Shared.csproj|c:\\users\\c.city\\source\\repos\\save-serve-project\\shared\\restaurant\\updaterestaurantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AED5933-FC3D-4E23-9A42-06F60D7FF6F1}|Shared\\Shared.csproj|solutionrelative:shared\\restaurant\\updaterestaurantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AED5933-FC3D-4E23-9A42-06F60D7FF6F1}|Shared\\Shared.csproj|c:\\users\\c.city\\source\\repos\\save-serve-project\\shared\\restaurant\\restaurantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AED5933-FC3D-4E23-9A42-06F60D7FF6F1}|Shared\\Shared.csproj|solutionrelative:shared\\restaurant\\restaurantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AED5933-FC3D-4E23-9A42-06F60D7FF6F1}|Shared\\Shared.csproj|c:\\users\\c.city\\source\\repos\\save-serve-project\\shared\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AED5933-FC3D-4E23-9A42-06F60D7FF6F1}|Shared\\Shared.csproj|solutionrelative:shared\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F2325B4-7017-4FAA-BC03-4A4F0525CCDC}|Core\\Domain\\Domain.csproj|c:\\users\\c.city\\source\\repos\\save-serve-project\\core\\domain\\contracts\\iconsumerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F2325B4-7017-4FAA-BC03-4A4F0525CCDC}|Core\\Domain\\Domain.csproj|solutionrelative:core\\domain\\contracts\\iconsumerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4663C2C3-D6E8-4F59-8ACB-D58EDC27E44E}|Infrustracture\\Persistance\\Persistance.csproj|c:\\users\\c.city\\source\\repos\\save-serve-project\\infrustracture\\persistance\\repositories\\consumerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4663C2C3-D6E8-4F59-8ACB-D58EDC27E44E}|Infrustracture\\Persistance\\Persistance.csproj|solutionrelative:infrustracture\\persistance\\repositories\\consumerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92EA437F-4544-4916-8F87-C41FEF2EC311}|Core\\Servcies\\Servcies.csproj|c:\\users\\c.city\\source\\repos\\save-serve-project\\core\\servcies\\restaurantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92EA437F-4544-4916-8F87-C41FEF2EC311}|Core\\Servcies\\Servcies.csproj|solutionrelative:core\\servcies\\restaurantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4663C2C3-D6E8-4F59-8ACB-D58EDC27E44E}|Infrustracture\\Persistance\\Persistance.csproj|c:\\users\\c.city\\source\\repos\\save-serve-project\\infrustracture\\persistance\\identity\\migration\\20260407215313_updateuserentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4663C2C3-D6E8-4F59-8ACB-D58EDC27E44E}|Infrustracture\\Persistance\\Persistance.csproj|solutionrelative:infrustracture\\persistance\\identity\\migration\\20260407215313_updateuserentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,15 +198,592 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WebApplicationExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Save\u0026Serve\\Extensions\\WebApplicationExtensions.cs",
+              "RelativeDocumentMoniker": "Save\u0026Serve\\Extensions\\WebApplicationExtensions.cs",
+              "ToolTip": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Save\u0026Serve\\Extensions\\WebApplicationExtensions.cs",
+              "RelativeToolTip": "Save\u0026Serve\\Extensions\\WebApplicationExtensions.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAowBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T19:11:16.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IDbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Core\\Domain\\Contracts\\IDbInitializer.cs",
+              "RelativeDocumentMoniker": "Core\\Domain\\Contracts\\IDbInitializer.cs",
+              "ToolTip": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Core\\Domain\\Contracts\\IDbInitializer.cs",
+              "RelativeToolTip": "Core\\Domain\\Contracts\\IDbInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T19:08:24.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Core\\Servcies\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "Core\\Servcies\\AuthenticationService.cs",
+              "ToolTip": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Core\\Servcies\\AuthenticationService.cs",
+              "RelativeToolTip": "Core\\Servcies\\AuthenticationService.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T19:00:26.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Save\u0026Serve\\Program.cs",
+              "RelativeDocumentMoniker": "Save\u0026Serve\\Program.cs",
+              "ToolTip": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Save\u0026Serve\\Program.cs",
+              "RelativeToolTip": "Save\u0026Serve\\Program.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAAAGcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T22:45:12.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServiceManager.cs",
+              "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Core\\Servcies\\ServiceManager.cs",
+              "RelativeDocumentMoniker": "Core\\Servcies\\ServiceManager.cs",
+              "ToolTip": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Core\\Servcies\\ServiceManager.cs",
+              "RelativeToolTip": "Core\\Servcies\\ServiceManager.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAswCMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T19:13:20.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Persistance\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "Infrustracture\\Persistance\\DbInitializer.cs",
+              "ToolTip": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Persistance\\DbInitializer.cs",
+              "RelativeToolTip": "Infrustracture\\Persistance\\DbInitializer.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T19:04:30.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InfraStructureServiceExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Save\u0026Serve\\Extensions\\InfraStructureServiceExtensions.cs",
+              "RelativeDocumentMoniker": "Save\u0026Serve\\Extensions\\InfraStructureServiceExtensions.cs",
+              "ToolTip": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Save\u0026Serve\\Extensions\\InfraStructureServiceExtensions.cs",
+              "RelativeToolTip": "Save\u0026Serve\\Extensions\\InfraStructureServiceExtensions.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T18:42:35.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IConsumerService.cs",
+              "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Core\\Servcies.Abstractions\\IConsumerService.cs",
+              "RelativeDocumentMoniker": "Core\\Servcies.Abstractions\\IConsumerService.cs",
+              "ToolTip": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Core\\Servcies.Abstractions\\IConsumerService.cs",
+              "RelativeToolTip": "Core\\Servcies.Abstractions\\IConsumerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T21:10:40.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20260408183642_FixRestaurantUserId.cs",
+              "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Persistance\\Migrations\\20260408183642_FixRestaurantUserId.cs",
+              "RelativeDocumentMoniker": "Infrustracture\\Persistance\\Migrations\\20260408183642_FixRestaurantUserId.cs",
+              "ToolTip": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Persistance\\Migrations\\20260408183642_FixRestaurantUserId.cs",
+              "RelativeToolTip": "Infrustracture\\Persistance\\Migrations\\20260408183642_FixRestaurantUserId.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T18:36:43.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IServiceManager.cs",
+              "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Core\\Servcies.Abstractions\\IServiceManager.cs",
+              "RelativeDocumentMoniker": "Core\\Servcies.Abstractions\\IServiceManager.cs",
+              "ToolTip": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Core\\Servcies.Abstractions\\IServiceManager.cs",
+              "RelativeToolTip": "Core\\Servcies.Abstractions\\IServiceManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T21:10:59.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ConsumerService.cs",
+              "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Core\\Servcies\\ConsumerService.cs",
+              "RelativeDocumentMoniker": "Core\\Servcies\\ConsumerService.cs",
+              "ToolTip": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Core\\Servcies\\ConsumerService.cs",
+              "RelativeToolTip": "Core\\Servcies\\ConsumerService.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAA0wHAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T21:29:19.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RestaurantController.cs",
+              "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Presentaion\\RestaurantController.cs",
+              "RelativeDocumentMoniker": "Infrustracture\\Presentaion\\RestaurantController.cs",
+              "ToolTip": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Presentaion\\RestaurantController.cs",
+              "RelativeToolTip": "Infrustracture\\Presentaion\\RestaurantController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAAA4AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T19:05:39.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApiController.cs",
+              "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Presentaion\\ApiController.cs",
+              "RelativeDocumentMoniker": "Infrustracture\\Presentaion\\ApiController.cs",
+              "ToolTip": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Presentaion\\ApiController.cs",
+              "RelativeToolTip": "Infrustracture\\Presentaion\\ApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T18:52:24.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Restraunt.cs",
+              "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Core\\Domain\\Entities\\Restraunt.cs",
+              "RelativeDocumentMoniker": "Core\\Domain\\Entities\\Restraunt.cs",
+              "ToolTip": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Core\\Domain\\Entities\\Restraunt.cs",
+              "RelativeToolTip": "Core\\Domain\\Entities\\Restraunt.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T17:52:33.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ConsumerController.cs",
+              "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Presentaion\\ConsumerController.cs",
+              "RelativeDocumentMoniker": "Infrustracture\\Presentaion\\ConsumerController.cs",
+              "ToolTip": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Presentaion\\ConsumerController.cs",
+              "RelativeToolTip": "Infrustracture\\Presentaion\\ConsumerController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T21:43:50.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IAuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Core\\Servcies.Abstractions\\IAuthenticationService.cs",
+              "RelativeDocumentMoniker": "Core\\Servcies.Abstractions\\IAuthenticationService.cs",
+              "ToolTip": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Core\\Servcies.Abstractions\\IAuthenticationService.cs",
+              "RelativeToolTip": "Core\\Servcies.Abstractions\\IAuthenticationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T18:01:37.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "JwtTokenService.cs",
+              "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Persistance\\Services\\JwtTokenService.cs",
+              "RelativeDocumentMoniker": "Infrustracture\\Persistance\\Services\\JwtTokenService.cs",
+              "ToolTip": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Persistance\\Services\\JwtTokenService.cs",
+              "RelativeToolTip": "Infrustracture\\Persistance\\Services\\JwtTokenService.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwDoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T17:59:21.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Save\u0026Serve\\appsettings.json",
+              "RelativeDocumentMoniker": "Save\u0026Serve\\appsettings.json",
+              "ToolTip": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Save\u0026Serve\\appsettings.json",
+              "RelativeToolTip": "Save\u0026Serve\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-08T17:19:49.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "StoreIdentityContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Persistance\\Identity\\migration\\StoreIdentityContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Infrustracture\\Persistance\\Identity\\migration\\StoreIdentityContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Persistance\\Identity\\migration\\StoreIdentityContextModelSnapshot.cs",
+              "RelativeToolTip": "Infrustracture\\Persistance\\Identity\\migration\\StoreIdentityContextModelSnapshot.cs",
+              "ViewState": "AgIAAAICAAAAAAAAAAAvwAkCAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T12:36:44.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AssemblyReference.cs",
+              "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Presentaion\\AssemblyReference.cs",
+              "RelativeDocumentMoniker": "Infrustracture\\Presentaion\\AssemblyReference.cs",
+              "ToolTip": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Presentaion\\AssemblyReference.cs",
+              "RelativeToolTip": "Infrustracture\\Presentaion\\AssemblyReference.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T18:52:25.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RestaurantConfigurations.cs",
+              "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Persistance\\Dates\\Configurations\\RestaurantConfigurations.cs",
+              "RelativeDocumentMoniker": "Infrustracture\\Persistance\\Dates\\Configurations\\RestaurantConfigurations.cs",
+              "ToolTip": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Persistance\\Dates\\Configurations\\RestaurantConfigurations.cs",
+              "RelativeToolTip": "Infrustracture\\Persistance\\Dates\\Configurations\\RestaurantConfigurations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T12:19:39.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ConsumerConfigurations.cs",
+              "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Persistance\\Dates\\Configurations\\ConsumerConfigurations.cs",
+              "RelativeDocumentMoniker": "Infrustracture\\Persistance\\Dates\\Configurations\\ConsumerConfigurations.cs",
+              "ToolTip": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Persistance\\Dates\\Configurations\\ConsumerConfigurations.cs",
+              "RelativeToolTip": "Infrustracture\\Persistance\\Dates\\Configurations\\ConsumerConfigurations.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T12:19:34.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Presentaion\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "Infrustracture\\Presentaion\\AuthenticationController.cs",
+              "ToolTip": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Presentaion\\AuthenticationController.cs",
+              "RelativeToolTip": "Infrustracture\\Presentaion\\AuthenticationController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T18:52:26.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PersenationsServicesExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Save\u0026Serve\\Extensions\\PersenationsServicesExtensions.cs",
+              "RelativeDocumentMoniker": "Save\u0026Serve\\Extensions\\PersenationsServicesExtensions.cs",
+              "ToolTip": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Save\u0026Serve\\Extensions\\PersenationsServicesExtensions.cs",
+              "RelativeToolTip": "Save\u0026Serve\\Extensions\\PersenationsServicesExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T18:53:07.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "20260407215313_UpdateUserEntity.cs",
+              "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Persistance\\Identity\\migration\\20260407215313_UpdateUserEntity.cs",
+              "RelativeDocumentMoniker": "Infrustracture\\Persistance\\Identity\\migration\\20260407215313_UpdateUserEntity.cs",
+              "ToolTip": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Persistance\\Identity\\migration\\20260407215313_UpdateUserEntity.cs",
+              "RelativeToolTip": "Infrustracture\\Persistance\\Identity\\migration\\20260407215313_UpdateUserEntity.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T21:53:13.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20260405230526_AddRestaurantConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Persistance\\Migrations\\20260405230526_AddRestaurantConsumer.cs",
+              "RelativeDocumentMoniker": "Infrustracture\\Persistance\\Migrations\\20260405230526_AddRestaurantConsumer.cs",
+              "ToolTip": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Persistance\\Migrations\\20260405230526_AddRestaurantConsumer.cs",
+              "RelativeToolTip": "Infrustracture\\Persistance\\Migrations\\20260405230526_AddRestaurantConsumer.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAwDUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T21:45:27.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "20260227134325_add security module.cs",
+              "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Persistance\\Identity\\migration\\20260227134325_add security module.cs",
+              "RelativeDocumentMoniker": "Infrustracture\\Persistance\\Identity\\migration\\20260227134325_add security module.cs",
+              "ToolTip": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Persistance\\Identity\\migration\\20260227134325_add security module.cs",
+              "RelativeToolTip": "Infrustracture\\Persistance\\Identity\\migration\\20260227134325_add security module.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T21:04:43.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "20260227134325_add security module.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Persistance\\Identity\\migration\\20260227134325_add security module.Designer.cs",
+              "RelativeDocumentMoniker": "Infrustracture\\Persistance\\Identity\\migration\\20260227134325_add security module.Designer.cs",
+              "ToolTip": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Persistance\\Identity\\migration\\20260227134325_add security module.Designer.cs",
+              "RelativeToolTip": "Infrustracture\\Persistance\\Identity\\migration\\20260227134325_add security module.Designer.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAewA4AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T21:04:41.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20260227121120_intial creation.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Persistance\\Migrations\\20260227121120_intial creation.Designer.cs",
+              "RelativeDocumentMoniker": "Infrustracture\\Persistance\\Migrations\\20260227121120_intial creation.Designer.cs",
+              "ToolTip": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Persistance\\Migrations\\20260227121120_intial creation.Designer.cs",
+              "RelativeToolTip": "Infrustracture\\Persistance\\Migrations\\20260227121120_intial creation.Designer.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAjwA4AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T21:16:59.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "StoreIdentityContext.cs",
+              "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Persistance\\Identity\\StoreIdentityContext.cs",
+              "RelativeDocumentMoniker": "Infrustracture\\Persistance\\Identity\\StoreIdentityContext.cs",
+              "ToolTip": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Persistance\\Identity\\StoreIdentityContext.cs",
+              "RelativeToolTip": "Infrustracture\\Persistance\\Identity\\StoreIdentityContext.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T21:13:19.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Core\\Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Core\\Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Core\\Domain\\Entities\\User.cs",
+              "RelativeToolTip": "Core\\Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T18:54:16.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "20260227121120_intial creation.cs",
+              "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Persistance\\Migrations\\20260227121120_intial creation.cs",
+              "RelativeDocumentMoniker": "Infrustracture\\Persistance\\Migrations\\20260227121120_intial creation.cs",
+              "ToolTip": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Persistance\\Migrations\\20260227121120_intial creation.cs",
+              "RelativeToolTip": "Infrustracture\\Persistance\\Migrations\\20260227121120_intial creation.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAjwAcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T21:04:35.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "StoreDBContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Persistance\\Migrations\\StoreDBContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Infrustracture\\Persistance\\Migrations\\StoreDBContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Persistance\\Migrations\\StoreDBContextModelSnapshot.cs",
+              "RelativeToolTip": "Infrustracture\\Persistance\\Migrations\\StoreDBContextModelSnapshot.cs",
+              "ViewState": "AgIAAAoCAAAAAAAAAAAAAAwCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T21:10:32.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "StoreDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Persistance\\Dates\\StoreDBContext.cs",
+              "RelativeDocumentMoniker": "Infrustracture\\Persistance\\Dates\\StoreDBContext.cs",
+              "ToolTip": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Persistance\\Dates\\StoreDBContext.cs",
+              "RelativeToolTip": "Infrustracture\\Persistance\\Dates\\StoreDBContext.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAABkAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T17:59:03.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Save\u0026Serve.http",
+              "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Save\u0026Serve\\Save\u0026Serve.http",
+              "RelativeDocumentMoniker": "Save\u0026Serve\\Save\u0026Serve.http",
+              "ToolTip": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Save\u0026Serve\\Save\u0026Serve.http",
+              "RelativeToolTip": "Save\u0026Serve\\Save\u0026Serve.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-04-05T21:32:40.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "IConsumerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Core\\Domain\\Contracts\\IConsumerRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Domain\\Contracts\\IConsumerRepository.cs",
+              "ToolTip": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Core\\Domain\\Contracts\\IConsumerRepository.cs",
+              "RelativeToolTip": "Core\\Domain\\Contracts\\IConsumerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T20:14:14.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ConsumerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Persistance\\Repositories\\ConsumerRepository.cs",
+              "RelativeDocumentMoniker": "Infrustracture\\Persistance\\Repositories\\ConsumerRepository.cs",
+              "ToolTip": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Persistance\\Repositories\\ConsumerRepository.cs",
+              "RelativeToolTip": "Infrustracture\\Persistance\\Repositories\\ConsumerRepository.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T20:54:00.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Consumer.cs",
+              "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Core\\Domain\\Entities\\Consumer.cs",
+              "RelativeDocumentMoniker": "Core\\Domain\\Entities\\Consumer.cs",
+              "ToolTip": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Core\\Domain\\Entities\\Consumer.cs",
+              "RelativeToolTip": "Core\\Domain\\Entities\\Consumer.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAgwAgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T20:18:15.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "UpdateConsumerDto.cs",
+              "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Shared\\Consumer\\UpdateConsumerDto.cs",
+              "RelativeDocumentMoniker": "Shared\\Consumer\\UpdateConsumerDto.cs",
+              "ToolTip": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Shared\\Consumer\\UpdateConsumerDto.cs",
+              "RelativeToolTip": "Shared\\Consumer\\UpdateConsumerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T20:07:28.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "CreateConsumerDto.cs",
+              "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Shared\\Consumer\\CreateConsumerDto.cs",
+              "RelativeDocumentMoniker": "Shared\\Consumer\\CreateConsumerDto.cs",
+              "ToolTip": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Shared\\Consumer\\CreateConsumerDto.cs",
+              "RelativeToolTip": "Shared\\Consumer\\CreateConsumerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T20:06:39.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ConsumerDto.cs",
+              "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Shared\\Consumer\\ConsumerDto.cs",
+              "RelativeDocumentMoniker": "Shared\\Consumer\\ConsumerDto.cs",
+              "ToolTip": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Shared\\Consumer\\ConsumerDto.cs",
+              "RelativeToolTip": "Shared\\Consumer\\ConsumerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T19:58:57.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "RestaurantService.cs",
+              "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Core\\Servcies\\RestaurantService.cs",
+              "RelativeDocumentMoniker": "Core\\Servcies\\RestaurantService.cs",
+              "ToolTip": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Core\\Servcies\\RestaurantService.cs",
+              "RelativeToolTip": "Core\\Servcies\\RestaurantService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T18:28:29.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Shared\\LoginDto.cs",
+              "RelativeDocumentMoniker": "Shared\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Shared\\LoginDto.cs",
+              "RelativeToolTip": "Shared\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T17:42:58.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CreateRestaurantDto.cs",
+              "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Shared\\Restaurant\\CreateRestaurantDto.cs",
+              "RelativeDocumentMoniker": "Shared\\Restaurant\\CreateRestaurantDto.cs",
+              "ToolTip": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Shared\\Restaurant\\CreateRestaurantDto.cs",
+              "RelativeToolTip": "Shared\\Restaurant\\CreateRestaurantDto.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAEwAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T16:43:24.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "UpdateRestaurantDto.cs",
+              "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Shared\\Restaurant\\UpdateRestaurantDto.cs",
+              "RelativeDocumentMoniker": "Shared\\Restaurant\\UpdateRestaurantDto.cs",
+              "ToolTip": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Shared\\Restaurant\\UpdateRestaurantDto.cs",
+              "RelativeToolTip": "Shared\\Restaurant\\UpdateRestaurantDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T17:26:54.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "UserRegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Shared\\UserRegisterDto.cs",
+              "RelativeDocumentMoniker": "Shared\\UserRegisterDto.cs",
+              "ToolTip": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Shared\\UserRegisterDto.cs",
+              "RelativeToolTip": "Shared\\UserRegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T16:41:14.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "RestaurantDto.cs",
+              "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Shared\\Restaurant\\RestaurantDto.cs",
+              "RelativeDocumentMoniker": "Shared\\Restaurant\\RestaurantDto.cs",
+              "ToolTip": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Shared\\Restaurant\\RestaurantDto.cs",
+              "RelativeToolTip": "Shared\\Restaurant\\RestaurantDto.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T16:38:30.023Z"
             }
           ]
         }
