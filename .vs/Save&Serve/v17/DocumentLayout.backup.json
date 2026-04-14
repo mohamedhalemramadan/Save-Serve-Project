@@ -15,10 +15,6 @@
       "RelativeMoniker": "D:0:0:{92EA437F-4544-4916-8F87-C41FEF2EC311}|Core\\Servcies\\Servcies.csproj|solutionrelative:core\\servcies\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{688B0690-E8D5-472F-AC3A-AA516BA914FD}|Save\u0026Serve\\Save\u0026Serve.csproj|c:\\users\\c.city\\source\\repos\\save-serve-project\\save\u0026serve\\extensions\\webapplicationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{688B0690-E8D5-472F-AC3A-AA516BA914FD}|Save\u0026Serve\\Save\u0026Serve.csproj|solutionrelative:save\u0026serve\\extensions\\webapplicationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5F2325B4-7017-4FAA-BC03-4A4F0525CCDC}|Core\\Domain\\Domain.csproj|c:\\users\\c.city\\source\\repos\\save-serve-project\\core\\domain\\contracts\\idbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F2325B4-7017-4FAA-BC03-4A4F0525CCDC}|Core\\Domain\\Domain.csproj|solutionrelative:core\\domain\\contracts\\idbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -221,20 +217,12 @@
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WebApplicationExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Save\u0026Serve\\Extensions\\WebApplicationExtensions.cs",
-              "RelativeDocumentMoniker": "Save\u0026Serve\\Extensions\\WebApplicationExtensions.cs",
-              "ToolTip": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Save\u0026Serve\\Extensions\\WebApplicationExtensions.cs",
-              "RelativeToolTip": "Save\u0026Serve\\Extensions\\WebApplicationExtensions.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAowBUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T19:11:16.363Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "IDbInitializer.cs",
               "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Core\\Domain\\Contracts\\IDbInitializer.cs",
               "RelativeDocumentMoniker": "Core\\Domain\\Contracts\\IDbInitializer.cs",
@@ -264,7 +252,7 @@
               "RelativeDocumentMoniker": "Save\u0026Serve\\Program.cs",
               "ToolTip": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Save\u0026Serve\\Program.cs",
               "RelativeToolTip": "Save\u0026Serve\\Program.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAAAGcAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-05T22:45:12.243Z",
               "EditorCaption": ""
@@ -283,7 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "DbInitializer.cs",
               "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Persistance\\DbInitializer.cs",
               "RelativeDocumentMoniker": "Infrustracture\\Persistance\\DbInitializer.cs",
@@ -295,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "InfraStructureServiceExtensions.cs",
               "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Save\u0026Serve\\Extensions\\InfraStructureServiceExtensions.cs",
               "RelativeDocumentMoniker": "Save\u0026Serve\\Extensions\\InfraStructureServiceExtensions.cs",
@@ -307,7 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "IConsumerService.cs",
               "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Core\\Servcies.Abstractions\\IConsumerService.cs",
               "RelativeDocumentMoniker": "Core\\Servcies.Abstractions\\IConsumerService.cs",
@@ -319,7 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "20260408183642_FixRestaurantUserId.cs",
               "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Persistance\\Migrations\\20260408183642_FixRestaurantUserId.cs",
               "RelativeDocumentMoniker": "Infrustracture\\Persistance\\Migrations\\20260408183642_FixRestaurantUserId.cs",
@@ -331,7 +319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "IServiceManager.cs",
               "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Core\\Servcies.Abstractions\\IServiceManager.cs",
               "RelativeDocumentMoniker": "Core\\Servcies.Abstractions\\IServiceManager.cs",
@@ -343,7 +331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "ConsumerService.cs",
               "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Core\\Servcies\\ConsumerService.cs",
               "RelativeDocumentMoniker": "Core\\Servcies\\ConsumerService.cs",
@@ -355,7 +343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "RestaurantController.cs",
               "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Presentaion\\RestaurantController.cs",
               "RelativeDocumentMoniker": "Infrustracture\\Presentaion\\RestaurantController.cs",
@@ -367,7 +355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "ApiController.cs",
               "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Presentaion\\ApiController.cs",
               "RelativeDocumentMoniker": "Infrustracture\\Presentaion\\ApiController.cs",
@@ -379,7 +367,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "Restraunt.cs",
               "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Core\\Domain\\Entities\\Restraunt.cs",
               "RelativeDocumentMoniker": "Core\\Domain\\Entities\\Restraunt.cs",
@@ -391,7 +379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "ConsumerController.cs",
               "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Presentaion\\ConsumerController.cs",
               "RelativeDocumentMoniker": "Infrustracture\\Presentaion\\ConsumerController.cs",
@@ -403,7 +391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "IAuthenticationService.cs",
               "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Core\\Servcies.Abstractions\\IAuthenticationService.cs",
               "RelativeDocumentMoniker": "Core\\Servcies.Abstractions\\IAuthenticationService.cs",
@@ -415,7 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "JwtTokenService.cs",
               "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Persistance\\Services\\JwtTokenService.cs",
               "RelativeDocumentMoniker": "Infrustracture\\Persistance\\Services\\JwtTokenService.cs",
@@ -427,7 +415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Save\u0026Serve\\appsettings.json",
               "RelativeDocumentMoniker": "Save\u0026Serve\\appsettings.json",
@@ -439,7 +427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "StoreIdentityContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Persistance\\Identity\\migration\\StoreIdentityContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Infrustracture\\Persistance\\Identity\\migration\\StoreIdentityContextModelSnapshot.cs",
@@ -451,7 +439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "AssemblyReference.cs",
               "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Presentaion\\AssemblyReference.cs",
               "RelativeDocumentMoniker": "Infrustracture\\Presentaion\\AssemblyReference.cs",
@@ -463,7 +451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 20,
               "Title": "RestaurantConfigurations.cs",
               "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Persistance\\Dates\\Configurations\\RestaurantConfigurations.cs",
               "RelativeDocumentMoniker": "Infrustracture\\Persistance\\Dates\\Configurations\\RestaurantConfigurations.cs",
@@ -475,7 +463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 21,
               "Title": "ConsumerConfigurations.cs",
               "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Persistance\\Dates\\Configurations\\ConsumerConfigurations.cs",
               "RelativeDocumentMoniker": "Infrustracture\\Persistance\\Dates\\Configurations\\ConsumerConfigurations.cs",
@@ -487,7 +475,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 19,
               "Title": "AuthenticationController.cs",
               "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Presentaion\\AuthenticationController.cs",
               "RelativeDocumentMoniker": "Infrustracture\\Presentaion\\AuthenticationController.cs",
@@ -499,7 +487,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 22,
               "Title": "PersenationsServicesExtensions.cs",
               "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Save\u0026Serve\\Extensions\\PersenationsServicesExtensions.cs",
               "RelativeDocumentMoniker": "Save\u0026Serve\\Extensions\\PersenationsServicesExtensions.cs",
@@ -511,7 +499,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 45,
               "Title": "20260407215313_UpdateUserEntity.cs",
               "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Persistance\\Identity\\migration\\20260407215313_UpdateUserEntity.cs",
               "RelativeDocumentMoniker": "Infrustracture\\Persistance\\Identity\\migration\\20260407215313_UpdateUserEntity.cs",
@@ -523,7 +511,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 23,
               "Title": "20260405230526_AddRestaurantConsumer.cs",
               "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Persistance\\Migrations\\20260405230526_AddRestaurantConsumer.cs",
               "RelativeDocumentMoniker": "Infrustracture\\Persistance\\Migrations\\20260405230526_AddRestaurantConsumer.cs",
@@ -535,7 +523,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 29,
               "Title": "20260227134325_add security module.cs",
               "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Persistance\\Identity\\migration\\20260227134325_add security module.cs",
               "RelativeDocumentMoniker": "Infrustracture\\Persistance\\Identity\\migration\\20260227134325_add security module.cs",
@@ -547,7 +535,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 28,
               "Title": "20260227134325_add security module.Designer.cs",
               "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Persistance\\Identity\\migration\\20260227134325_add security module.Designer.cs",
               "RelativeDocumentMoniker": "Infrustracture\\Persistance\\Identity\\migration\\20260227134325_add security module.Designer.cs",
@@ -559,7 +547,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 26,
               "Title": "20260227121120_intial creation.Designer.cs",
               "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Persistance\\Migrations\\20260227121120_intial creation.Designer.cs",
               "RelativeDocumentMoniker": "Infrustracture\\Persistance\\Migrations\\20260227121120_intial creation.Designer.cs",
@@ -571,7 +559,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 24,
               "Title": "StoreIdentityContext.cs",
               "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Persistance\\Identity\\StoreIdentityContext.cs",
               "RelativeDocumentMoniker": "Infrustracture\\Persistance\\Identity\\StoreIdentityContext.cs",
@@ -583,7 +571,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 25,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Core\\Domain\\Entities\\User.cs",
               "RelativeDocumentMoniker": "Core\\Domain\\Entities\\User.cs",
@@ -595,7 +583,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 27,
               "Title": "20260227121120_intial creation.cs",
               "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Persistance\\Migrations\\20260227121120_intial creation.cs",
               "RelativeDocumentMoniker": "Infrustracture\\Persistance\\Migrations\\20260227121120_intial creation.cs",
@@ -607,7 +595,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 30,
               "Title": "StoreDBContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Persistance\\Migrations\\StoreDBContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Infrustracture\\Persistance\\Migrations\\StoreDBContextModelSnapshot.cs",
@@ -619,7 +607,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 31,
               "Title": "StoreDBContext.cs",
               "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Persistance\\Dates\\StoreDBContext.cs",
               "RelativeDocumentMoniker": "Infrustracture\\Persistance\\Dates\\StoreDBContext.cs",
@@ -631,7 +619,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 32,
               "Title": "Save\u0026Serve.http",
               "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Save\u0026Serve\\Save\u0026Serve.http",
               "RelativeDocumentMoniker": "Save\u0026Serve\\Save\u0026Serve.http",
@@ -643,7 +631,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 42,
               "Title": "IConsumerRepository.cs",
               "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Core\\Domain\\Contracts\\IConsumerRepository.cs",
               "RelativeDocumentMoniker": "Core\\Domain\\Contracts\\IConsumerRepository.cs",
@@ -655,7 +643,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 43,
               "Title": "ConsumerRepository.cs",
               "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Infrustracture\\Persistance\\Repositories\\ConsumerRepository.cs",
               "RelativeDocumentMoniker": "Infrustracture\\Persistance\\Repositories\\ConsumerRepository.cs",
@@ -667,7 +655,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 33,
               "Title": "Consumer.cs",
               "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Core\\Domain\\Entities\\Consumer.cs",
               "RelativeDocumentMoniker": "Core\\Domain\\Entities\\Consumer.cs",
@@ -679,7 +667,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 34,
               "Title": "UpdateConsumerDto.cs",
               "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Shared\\Consumer\\UpdateConsumerDto.cs",
               "RelativeDocumentMoniker": "Shared\\Consumer\\UpdateConsumerDto.cs",
@@ -691,7 +679,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 35,
               "Title": "CreateConsumerDto.cs",
               "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Shared\\Consumer\\CreateConsumerDto.cs",
               "RelativeDocumentMoniker": "Shared\\Consumer\\CreateConsumerDto.cs",
@@ -703,7 +691,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 36,
               "Title": "ConsumerDto.cs",
               "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Shared\\Consumer\\ConsumerDto.cs",
               "RelativeDocumentMoniker": "Shared\\Consumer\\ConsumerDto.cs",
@@ -715,7 +703,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 44,
               "Title": "RestaurantService.cs",
               "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Core\\Servcies\\RestaurantService.cs",
               "RelativeDocumentMoniker": "Core\\Servcies\\RestaurantService.cs",
@@ -727,7 +715,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 37,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Shared\\LoginDto.cs",
               "RelativeDocumentMoniker": "Shared\\LoginDto.cs",
@@ -739,7 +727,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 38,
               "Title": "CreateRestaurantDto.cs",
               "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Shared\\Restaurant\\CreateRestaurantDto.cs",
               "RelativeDocumentMoniker": "Shared\\Restaurant\\CreateRestaurantDto.cs",
@@ -751,7 +739,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 39,
               "Title": "UpdateRestaurantDto.cs",
               "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Shared\\Restaurant\\UpdateRestaurantDto.cs",
               "RelativeDocumentMoniker": "Shared\\Restaurant\\UpdateRestaurantDto.cs",
@@ -763,7 +751,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 41,
               "Title": "UserRegisterDto.cs",
               "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Shared\\UserRegisterDto.cs",
               "RelativeDocumentMoniker": "Shared\\UserRegisterDto.cs",
@@ -775,7 +763,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 40,
               "Title": "RestaurantDto.cs",
               "DocumentMoniker": "C:\\Users\\c.city\\source\\repos\\Save-Serve-Project\\Shared\\Restaurant\\RestaurantDto.cs",
               "RelativeDocumentMoniker": "Shared\\Restaurant\\RestaurantDto.cs",

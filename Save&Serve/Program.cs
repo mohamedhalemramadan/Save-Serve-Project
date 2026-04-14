@@ -42,7 +42,7 @@ namespace Save_Serve
            
             builder.Services.AddScoped<IConsumerService, ConsumerService>();  
             builder.Services.AddScoped<IRestaurantService, RestaurantService>();
-
+            
            
 
             builder.Services.AddControllers()
