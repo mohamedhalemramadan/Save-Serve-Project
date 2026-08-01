@@ -1,0 +1,123 @@
+@model NurserySystem.Application.DTOs.CreateChildDto
+
+@{
+    ViewData["Title"] = "إضافة طفل جديد";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2><i class="bi bi-plus-circle"></i> إضافة طفل جديد</h2>
+    <a asp-action="Index" class="btn btn-secondary">
+        <i class="bi bi-arrow-right"></i> عودة للقائمة
+    </a>
+</div>
+
+<div class="card">
+    <div class="card-body">
+        <form asp-action="Create" method="post">
+            <h5 class="text-primary mb-3">بيانات الطفل</h5>
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label asp-for="NameAr" class="form-label">الاسم بالعربية</label>
+                    <input asp-for="NameAr" class="form-control" />
+                    <span asp-validation-for="NameAr" class="text-danger"></span>
+                </div>
+                <div class="col-md-6">
+                    <label asp-for="NameEn" class="form-label">الاسم بالإنجليزية</label>
+                    <input asp-for="NameEn" class="form-control" />
+                    <span asp-validation-for="NameEn" class="text-danger"></span>
+                </div>
+            </div>
+            
+            <div class="row mb-3">
+                <div class="col-md-4">
+                    <label asp-for="DateOfBirth" class="form-label">تاريخ الميلاد</label>
+                    <input asp-for="DateOfBirth" type="date" class="form-control" />
+                    <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+                </div>
+                <div class="col-md-4">
+                    <label asp-for="Gender" class="form-label">النوع</label>
+                    <select asp-for="Gender" class="form-select">
+                        <option value="">اختر النوع</option>
+                        <option value="ذكر">ذكر</option>
+                        <option value="أنثى">أنثى</option>
+                    </select>
+                    <span asp-validation-for="Gender" class="text-danger"></span>
+                </div>
+                <div class="col-md-4">
+                    <label asp-for="BloodType" class="form-label">فصيلة الدم</label>
+                    <select asp-for="BloodType" class="form-select">
+                        <option value="">اختر الفصيلة</option>
+                        <option value="A+">A+</option>
+                        <option value="A-">A-</option>
+                        <option value="B+">B+</option>
+                        <option value="B-">B-</option>
+                        <option value="O+">O+</option>
+                        <option value="O-">O-</option>
+                        <option value="AB+">AB+</option>
+                        <option value="AB-">AB-</option>
+                    </select>
+                    <span asp-validation-for="BloodType" class="text-danger"></span>
+                </div>
+            </div>
+            
+            <div class="mb-3">
+                <label asp-for="MedicalNotes" class="form-label">ملاحظات طبية</label>
+                <textarea asp-for="MedicalNotes" class="form-control" rows="2"></textarea>
+            </div>
+            
+            <hr class="my-4" />
+            
+            <h5 class="text-primary mb-3">بيانات ولي الأمر</h5>
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label asp-for="GuardianNameAr" class="form-label">اسم ولي الأمر (عربي)</label>
+                    <input asp-for="GuardianNameAr" class="form-control" />
+                    <span asp-validation-for="GuardianNameAr" class="text-danger"></span>
+                </div>
+                <div class="col-md-6">
+                    <label asp-for="GuardianPhone" class="form-label">رقم الهاتف</label>
+                    <input asp-for="GuardianPhone" class="form-control" />
+                    <span asp-validation-for="GuardianPhone" class="text-danger"></span>
+                </div>
+            </div>
+            
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label asp-for="GuardianEmail" class="form-label">البريد الإلكتروني</label>
+                    <input asp-for="GuardianEmail" type="email" class="form-control" />
+                    <span asp-validation-for="GuardianEmail" class="text-danger"></span>
+                </div>
+                <div class="col-md-6">
+                    <label asp-for="GuardianRelationship" class="form-label">صفة ولي الأمر</label>
+                    <select asp-for="GuardianRelationship" class="form-select">
+                        <option value="">اختر الصفة</option>
+                        <option value="أب">أب</option>
+                        <option value="أم">أم</option>
+                        <option value="ولي أمر">ولي أمر</option>
+                    </select>
+                    <span asp-validation-for="GuardianRelationship" class="text-danger"></span>
+                </div>
+            </div>
+            
+            <hr class="my-4" />
+            
+            <h5 class="text-primary mb-3">بيانات الفصل</h5>
+            <div class="mb-3">
+                <label asp-for="ClassRoomId" class="form-label">الفصل الدراسي</label>
+                <select asp-for="ClassRoomId" asp-items="@(new SelectList(ViewBag.ClassRooms, \"Id\", \"NameAr\"))" class="form-select">
+                    <option value="">اختر الفصل</option>
+                </select>
+            </div>
+            
+            <div class="mt-4">
+                <button type="submit" class="btn btn-primary">
+                    <i class="bi bi-save"></i> حفظ البيانات
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
