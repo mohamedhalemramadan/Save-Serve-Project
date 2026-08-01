@@ -1,5 +1,16 @@
 ```
 # Build results
+bin/
+obj/
+out/
+
+# User-specific files
+.vs/
+*.user
+*.userosscache
+*.suo
+
+# Build results
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
@@ -14,30 +25,47 @@ bld/
 # Visual Studio Code
 .vscode/
 
-# Visual Studio
-*.user
-*.suo
-*.userosscache
-*.sln.docstates
+# Visual Studio cache/options
+*.VC.db
+*.VC.VC.opendb
 
-# ASP.NET Core
-**/bin/Debug/**
-**/bin/Release/**
-**/obj/
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
 
-# Dependencies
-packages/
-node_modules/
-bower_components/
+# NUnit
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
 
-# Environment specific settings
-.env
-.env.local
-.env.*
-!env.example
-
-# Log files
+# Build results
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
 *.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
 
 # OS generated files
 .DS_Store
@@ -48,9 +76,33 @@ bower_components/
 ehthumbs.db
 Thumbs.db
 desktop.ini
+\$RECYCLE.BIN/
+
+# Environment specific settings
+.env
+.env.local
+*.env.*
+appsettings.Development.json
+
+# Dependency directories
+node_modules/
+packages/
+
+# IDE
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Coverage
+coverage/
+*.coverage
+*.gcov
+*.lcov
 
 # Temporary files
 *.tmp
 *.temp
-*~
 ```
